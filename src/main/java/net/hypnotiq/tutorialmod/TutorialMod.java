@@ -2,6 +2,7 @@ package net.hypnotiq.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.hypnotiq.tutorialmod.block.ModBlocks;
+import net.hypnotiq.tutorialmod.item.ModCreativeModeTabs;
 import net.hypnotiq.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -33,6 +34,8 @@ public class TutorialMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register((modEventBus));
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -57,6 +60,8 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept((ModBlocks.ALEXANDRITE_BLOCK));
             event.accept((ModBlocks.RAW_ALEXANDRITE_BLOCK));
+            event.accept((ModBlocks.ALEXANDRITE_ORE));
+            event.accept((ModBlocks.DEEPSLATE_ALEXANDRITE_ORE));
         }
     }
 
