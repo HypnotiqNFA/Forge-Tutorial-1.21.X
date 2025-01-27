@@ -1,6 +1,7 @@
 package net.hypnotiq.tutorialmod.item;
 
 import net.hypnotiq.tutorialmod.TutorialMod;
+import net.hypnotiq.tutorialmod.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,6 +14,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel", () -> new ChiselItem(new Item.Properties().durability(128)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,6 +1,7 @@
 package net.hypnotiq.tutorialmod.block;
 
 import net.hypnotiq.tutorialmod.TutorialMod;
+import net.hypnotiq.tutorialmod.block.custom.MagicBlock;
 import net.hypnotiq.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -13,6 +14,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.apache.commons.io.filefilter.RegexFileFilter;
 
 import java.util.function.Supplier;
 
@@ -26,6 +28,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> ALEXANDRITE_ORE = registerBlock("alexandrite_ore", () -> new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> DEEPSLATE_ALEXANDRITE_ORE = registerBlock("deepslate_alexandrite_ore", () -> new DropExperienceBlock(UniformInt.of(3,6), BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block", () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
