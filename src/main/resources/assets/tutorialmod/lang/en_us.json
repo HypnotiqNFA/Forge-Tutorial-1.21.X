@@ -2,6 +2,8 @@
   "item.tutorialmod.alexandrite": "Alexandrite Gem",
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite Gem",
   "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.kohlrabi": "Kohlrabi",
+  "item.tutorialmod.aurora_ashes": "Aurora Ashes",
 
   "block.tutorialmod.alexandrite_block": "Alexandrite Gem Block",
   "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Gem Block",
@@ -11,5 +13,6 @@
   "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.alexandrite_items_tab": "Alexandrite Items",
-  "creativetab.tutorialmod.alexandrite_blocks_tab": "Alexandrite Blocks"
+  "creativetab.tutorialmod.alexandrite_blocks_tab": "Alexandrite Blocks",
+  "creativetab.tutorialmod.miscellaneous_mod_items_tab": "Miscellaneous Mod Items"
 }

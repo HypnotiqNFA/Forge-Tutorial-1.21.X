@@ -35,6 +35,14 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.MAGIC_BLOCK.get());
             }).build());
 
+    public static final RegistryObject<CreativeModeTab> MISCELLSNEOUS_MOD_ITEMS_TAB = CREATIVE_MODE_TABS.register("miscellaneous_mod_items_tab", () -> CreativeModeTab.builder()
+            .icon(() -> new ItemStack(ModItems.KOHLRABI.get()))
+            .withTabsBefore(ALEXANDRITE_BLOCKS_TAB.getId())
+            .title(Component.translatable("creativetab.tutorialmod.miscellaneous_mod_items_tab"))
+            .displayItems((itemDisplayParameter,output) -> {
+                output.accept(ModItems.KOHLRABI.get());
+                output.accept(ModItems.AURORA_ASHES.get());
+            }).build());
 
 
     public static void register(IEventBus eventBus) {

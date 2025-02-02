@@ -55,6 +55,8 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
+            event.accept(ModItems.KOHLRABI);
+            event.accept(ModItems.AURORA_ASHES);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
