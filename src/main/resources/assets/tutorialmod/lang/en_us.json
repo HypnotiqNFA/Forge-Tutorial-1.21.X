@@ -14,5 +14,11 @@
 
   "creativetab.tutorialmod.alexandrite_items_tab": "Alexandrite Items",
   "creativetab.tutorialmod.alexandrite_blocks_tab": "Alexandrite Blocks",
-  "creativetab.tutorialmod.miscellaneous_mod_items_tab": "Miscellaneous Mod Items"
+  "creativetab.tutorialmod.miscellaneous_mod_items_tab": "Miscellaneous Mod Items",
+
+  "tooltip.tutorialmod.magic_block": "Throw Raw Alexandrite on this block to get Alexandrite Gem.",
+  "tooltip.tutorialmod.chisel.shift_pressed": "This item changes certain blocks",
+  "tooltip.tutorialmod.chisel.": "Press §eShift§r for more information!",
+  "tooltip.tutorialmod.kohlrabi": "Eating this will give you regeneration for a short time."
+
 }
