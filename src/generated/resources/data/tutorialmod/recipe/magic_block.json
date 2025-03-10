@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "tutorialmod:raw_alexandrite"
+    },
+    "B": {
+      "item": "tutorialmod:aurora_ashes"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:magic_block"
+  }
+}

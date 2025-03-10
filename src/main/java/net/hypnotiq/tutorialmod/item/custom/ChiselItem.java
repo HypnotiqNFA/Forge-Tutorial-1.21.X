@@ -25,8 +25,10 @@ public class ChiselItem extends Item {
             Map.of(
                     Blocks.STONE, Blocks.STONE_BRICKS,
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
-                    Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS
+                    Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS,
+                    ModBlocks.ALEXANDRITE_BLOCK.get(), ModBlocks.MAGIC_BLOCK.get()
             );
+
 
     public ChiselItem(Properties pProperties) {
         super(pProperties);
@@ -47,6 +49,7 @@ public class ChiselItem extends Item {
                 level.playSound(null, pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
             }
         }
+
 
         return InteractionResult.SUCCESS;
     }
