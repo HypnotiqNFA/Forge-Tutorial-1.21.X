@@ -1,5 +1,4 @@
-// 1.21	2025-03-17T17:31:43.631176	Tags for minecraft:block mod id tutorialmod
-7040c1554c67074e06991cf7ea99e691acfb8ddc data/minecraft/tags/block/fences.json
+// 1.21	2025-03-17T17:47:48.1469026	Tags for minecraft:block mod id tutorialmod
 8f61b67394cb2303f2111446266a199eeff13c4d data/minecraft/tags/block/fence_gates.json
 0acb6fcf75e28ead618ac4a5f5e23f4d22d54185 data/minecraft/tags/block/mineable/pickaxe.json
 f30a6367dbc22bbef01d6bf2a992f645005f83b5 data/minecraft/tags/block/needs_diamond_tool.json
