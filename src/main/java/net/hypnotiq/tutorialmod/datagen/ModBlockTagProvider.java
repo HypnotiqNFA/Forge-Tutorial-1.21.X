@@ -5,6 +5,7 @@ import net.hypnotiq.tutorialmod.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -30,6 +31,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK.get());
+
+        tag(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.ALEXANDRITE_FENCE.get());
+
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
+
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.ALEXANDRITE_WALL.get());
 
     }
 }
