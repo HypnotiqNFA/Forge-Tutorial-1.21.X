@@ -1,6 +1,7 @@
 package net.hypnotiq.tutorialmod.block;
 
 import net.hypnotiq.tutorialmod.TutorialMod;
+import net.hypnotiq.tutorialmod.block.custom.AlexandriteLampBlock;
 import net.hypnotiq.tutorialmod.block.custom.MagicBlock;
 import net.hypnotiq.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -41,6 +42,8 @@ public class ModBlocks {
 
     public static final RegistryObject<DoorBlock> ALEXANDRITE_DOOR = registerBlock("alexandrite_door", () -> new DoorBlock(BlockSetType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion().sound(SoundType.AMETHYST)));
     public static final RegistryObject<TrapDoorBlock> ALEXANDRITE_TRAPDOOR = registerBlock("alexandrite_trapdoor", () -> new TrapDoorBlock(BlockSetType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp", () -> new AlexandriteLampBlock(BlockBehaviour.Properties.of().strength(3f).lightLevel(state -> state.getValue(AlexandriteLampBlock.CLICKED) ? 15 : 0).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

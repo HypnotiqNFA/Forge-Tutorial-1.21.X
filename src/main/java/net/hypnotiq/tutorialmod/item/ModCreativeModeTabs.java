@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.ALEXANDRITE_WALL.get());
                 output.accept(ModBlocks.ALEXANDRITE_DOOR.get());
                 output.accept(ModBlocks.ALEXANDRITE_TRAPDOOR.get());
+                output.accept(ModBlocks.ALEXANDRITE_LAMP.get());
             }).build());
 
     public static final RegistryObject<CreativeModeTab> MISCELLSNEOUS_MOD_ITEMS_TAB = CREATIVE_MODE_TABS.register("miscellaneous_mod_items_tab", () -> CreativeModeTab.builder()
