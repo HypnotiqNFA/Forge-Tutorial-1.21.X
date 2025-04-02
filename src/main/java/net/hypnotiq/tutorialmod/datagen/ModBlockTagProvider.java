@@ -2,9 +2,11 @@ package net.hypnotiq.tutorialmod.datagen;
 
 import net.hypnotiq.tutorialmod.TutorialMod;
 import net.hypnotiq.tutorialmod.block.ModBlocks;
+import net.hypnotiq.tutorialmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -29,7 +31,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get()); 
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.MAGIC_BLOCK.get());
+                .add(ModBlocks.MAGIC_BLOCK.get())
+                .add(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
 
         tag(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.ALEXANDRITE_FENCE.get());
@@ -39,6 +42,16 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.ALEXANDRITE_WALL.get());
+
+        tag(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL)
+                .add(ModBlocks.RAW_ALEXANDRITE_BLOCK.get())
+                .add(ModBlocks.MAGIC_BLOCK.get())
+                .add(Blocks.OBSIDIAN)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_ALEXANDRITE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL);
 
     }
 }

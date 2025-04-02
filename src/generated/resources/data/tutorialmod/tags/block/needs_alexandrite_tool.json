@@ -1,0 +1,8 @@
+{
+  "values": [
+    "tutorialmod:raw_alexandrite_block",
+    "tutorialmod:magic_block",
+    "minecraft:obsidian",
+    "#minecraft:needs_iron_tool"
+  ]
+}

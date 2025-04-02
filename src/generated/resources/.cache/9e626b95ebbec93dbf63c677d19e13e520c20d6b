@@ -1,7 +1,9 @@
-// 1.21	2025-03-17T17:47:48.1469026	Tags for minecraft:block mod id tutorialmod
+// 1.21	2025-04-02T17:11:57.8825011	Tags for minecraft:block mod id tutorialmod
 8f61b67394cb2303f2111446266a199eeff13c4d data/minecraft/tags/block/fence_gates.json
 0acb6fcf75e28ead618ac4a5f5e23f4d22d54185 data/minecraft/tags/block/mineable/pickaxe.json
-f30a6367dbc22bbef01d6bf2a992f645005f83b5 data/minecraft/tags/block/needs_diamond_tool.json
+497b8ec40b7d3d4df3c73f909f50d98bcae218b6 data/minecraft/tags/block/needs_diamond_tool.json
 671cd177ecb325ae6502d80c9d8976257fa22401 data/minecraft/tags/block/needs_iron_tool.json
 e6dfaa2212b26282ddb31293aef983be64e2c864 data/minecraft/tags/block/walls.json
 7040c1554c67074e06991cf7ea99e691acfb8ddc data/minecraft/tags/block/wooden_fences.json
+e07c856c08662f1f6823861c338016ba586b5e0c data/tutorialmod/tags/block/incorrect_for_alexandrite_tool.json
+08fb561b7f664953f9cf56eadbb2c3e26437ab3f data/tutorialmod/tags/block/needs_alexandrite_tool.json

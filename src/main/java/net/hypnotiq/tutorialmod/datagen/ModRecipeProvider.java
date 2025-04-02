@@ -74,6 +74,55 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SWORD.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Items.STICK)
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_PICKAXE.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Items.STICK)
+                .pattern("AAA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SHOVEL.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Items.STICK)
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_AXE.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Items.STICK)
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern(" B ")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HOE.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Items.STICK)
+                .pattern(" AA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
                 .requires(ModBlocks.ALEXANDRITE_BLOCK.get())

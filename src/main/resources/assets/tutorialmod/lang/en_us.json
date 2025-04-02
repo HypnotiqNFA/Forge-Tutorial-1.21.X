@@ -5,6 +5,13 @@
   "item.tutorialmod.kohlrabi": "Kohlrabi",
   "item.tutorialmod.aurora_ashes": "Aurora Ashes",
 
+  "item.tutorialmod.alexandrite_sword": "Alexandrite Sword",
+  "item.tutorialmod.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.tutorialmod.alexandrite_shovel": "Alexandrite Shovel",
+  "item.tutorialmod.alexandrite_axe": "Alexandrite Axe",
+  "item.tutorialmod.alexandrite_hoe": "Alexandrite Hoe",
+
+
   "block.tutorialmod.alexandrite_block": "Alexandrite Gem Block",
   "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Gem Block",
   "block.tutorialmod.alexandrite_ore": "Alexandrite Ore",
