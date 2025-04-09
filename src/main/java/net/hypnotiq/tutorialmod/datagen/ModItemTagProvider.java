@@ -6,6 +6,7 @@ import net.hypnotiq.tutorialmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -21,5 +22,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.RAW_ALEXANDRITE.get());
+
+        tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ALEXANDRITE_HELMET.get())
+                .add(ModItems.ALEXANDRITE_CHESTPLATE.get())
+                .add(ModItems.ALEXANDRITE_LEGGINGS.get())
+                .add(ModItems.ALEXANDRITE_BOOTS.get());
     }
+
 }

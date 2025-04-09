@@ -124,6 +124,50 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HAMMER.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Items.STICK)
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern(" B ")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HELMET.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_CHESTPLATE.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_LEGGINGS.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_BOOTS.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .pattern("A A")
+                .pattern("A A")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
                 .requires(ModBlocks.ALEXANDRITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ALEXANDRITE_BLOCK.get()), has(ModBlocks.ALEXANDRITE_BLOCK.get()))
@@ -151,6 +195,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
         trapdoorBuilder(ModBlocks.ALEXANDRITE_TRAPDOOR.get(), Ingredient.of(ModItems.ALEXANDRITE.get())).group("alexandrite")
                 .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
+
 
     }
 
