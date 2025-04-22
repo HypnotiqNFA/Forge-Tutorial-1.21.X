@@ -41,6 +41,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.RAW_ALEXANDRITE.get()), has(ModItems.RAW_ALEXANDRITE.get()))
                 .save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AURORA_ASHES.get())
+                .define('A', ModItems.RAW_ALEXANDRITE.get())
+                .define('B', Items.NETHER_STAR)
+                .define('C', Items.DIAMOND)
+                .pattern("CAC")
+                .pattern("ABA")
+                .pattern("CAC")
+                .unlockedBy(getHasName(ModItems.RAW_ALEXANDRITE.get()), has(ModItems.RAW_ALEXANDRITE.get()))
+                .save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAGIC_BLOCK.get())
                 .define('A', ModItems.RAW_ALEXANDRITE.get())
@@ -163,6 +172,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_BOOTS.get())
                 .define('A', ModItems.ALEXANDRITE.get())
                 .pattern("A A")
+                .pattern("A A")
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
+                .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HORSE_ARMOR.get())
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('B', Items.SADDLE)
+                .pattern("  A")
+                .pattern("ABA")
                 .pattern("A A")
                 .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get()))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))

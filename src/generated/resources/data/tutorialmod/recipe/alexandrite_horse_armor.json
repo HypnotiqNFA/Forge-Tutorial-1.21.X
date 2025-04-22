@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "tutorialmod:alexandrite"
+    },
+    "B": {
+      "item": "minecraft:saddle"
+    }
+  },
+  "pattern": [
+    "  A",
+    "ABA",
+    "A A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:alexandrite_horse_armor"
+  }
+}
