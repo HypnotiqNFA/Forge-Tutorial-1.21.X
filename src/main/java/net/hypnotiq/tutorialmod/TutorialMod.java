@@ -5,6 +5,7 @@ import net.hypnotiq.tutorialmod.block.ModBlocks;
 import net.hypnotiq.tutorialmod.block.component.ModDataComponentTypes;
 import net.hypnotiq.tutorialmod.item.ModCreativeModeTabs;
 import net.hypnotiq.tutorialmod.item.ModItems;
+import net.hypnotiq.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -81,7 +82,7 @@ public class TutorialMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

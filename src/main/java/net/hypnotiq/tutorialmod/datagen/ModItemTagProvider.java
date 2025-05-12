@@ -23,11 +23,22 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.RAW_ALEXANDRITE.get());
 
+        tag(ModTags.Items.MOD_BOWS)
+                .add(ModItems.KAUPEN_BOW.get());
+
         tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ALEXANDRITE_HELMET.get())
                 .add(ModItems.ALEXANDRITE_CHESTPLATE.get())
                 .add(ModItems.ALEXANDRITE_LEGGINGS.get())
                 .add(ModItems.ALEXANDRITE_BOOTS.get());
+
+        tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.ALEXANDRITE.get());
+
+        tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+
     }
 
 }

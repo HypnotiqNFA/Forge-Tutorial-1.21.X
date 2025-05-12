@@ -13,12 +13,16 @@
 
   "item.tutorialmod.alexandrite_hammer": "Alexandrite Hammer",
 
+  "item.tutorialmod.kaupen_bow": "Kaupen Bow",
+
   "item.tutorialmod.alexandrite_helmet": "Alexandrite Helmet",
   "item.tutorialmod.alexandrite_chestplate": "Alexandrite Chestplate",
   "item.tutorialmod.alexandrite_leggings": "Alexandrite Leggings",
   "item.tutorialmod.alexandrite_boots": "Alexandrite Boots",
 
   "item.tutorialmod.alexandrite_horse_armor": "Alexandrite Horse Armor",
+
+  "item.tutorialmod.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
 
   "block.tutorialmod.alexandrite_block": "Alexandrite Gem Block",
   "block.tutorialmod.raw_alexandrite_block": "Raw Alexandrite Gem Block",
@@ -48,6 +52,9 @@
   "tooltip.tutorialmod.magic_block": "Throw Raw Alexandrite on this block to get Alexandrite Gem.",
   "tooltip.tutorialmod.chisel.shift_pressed": "This item changes certain blocks",
   "tooltip.tutorialmod.chisel.": "Press §eShift§r for more information!",
-  "tooltip.tutorialmod.kohlrabi": "Eating this will give you regeneration for a short time."
+  "tooltip.tutorialmod.kohlrabi": "Eating this will give you regeneration for a short time.",
+
+  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Trim",
+  "trim_pattern.tutorialmod.alexandrite": "Alexandrite Material"
 
 }

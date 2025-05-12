@@ -1,4 +1,4 @@
-// 1.21	2025-04-22T16:57:02.36864	Recipes
+// 1.21	2025-05-07T16:51:26.2558475	Recipes
 91a1b0c443bceae33c3283d52470dc8008f27640 data/tutorialmod/advancement/recipes/building_blocks/alexandrite_slab.json
 a45cd5043059757196962100fd76a0eefff1394d data/tutorialmod/advancement/recipes/building_blocks/alexandrite_stairs.json
 4b42a990260ae614514fc37a4503dd24d0e2b3ec data/tutorialmod/advancement/recipes/building_blocks/alexandrite_wall.json
@@ -27,6 +27,8 @@ cb80c0baea937bccae4aa991424f58ecc523ddff data/tutorialmod/advancement/recipes/mi
 271ee270a3c13e53b133265665923530d2c73c7b data/tutorialmod/advancement/recipes/misc/alexandrite_sword.json
 38e15f86bc674c0209e55f0bebf91a51c81eb1b0 data/tutorialmod/advancement/recipes/misc/aurora_ashes.json
 a59072417be9255184198d03559e08909ba8d6ed data/tutorialmod/advancement/recipes/misc/chisel.json
+47a7c4ad671425a4c3ad4ced463e5ec11f22b36a data/tutorialmod/advancement/recipes/misc/kaupen.json
+3360de46149be304919f829d7e2c6ddadb564650 data/tutorialmod/advancement/recipes/misc/kaupen_bow.json
 842a4705ccc4ca899b44b83589bc5d219b268e60 data/tutorialmod/advancement/recipes/misc/magic_block.json
 5f295c449d085be1a912270e89034d8d76729ead data/tutorialmod/advancement/recipes/misc/raw_alexandrite_block.json
 86252337955abfad5e0cdebc23c5c065e4a967b7 data/tutorialmod/advancement/recipes/redstone/alexandrite_button.json
@@ -67,5 +69,7 @@ b1708962a675ccf49e511c4f3f2a968f620c4cf2 data/tutorialmod/recipe/alexandrite_tra
 29b14efaf9f9afbcfc7a0522d48843c71dfda9ec data/tutorialmod/recipe/alexandrite_wall.json
 dc8bb438b487dcbfde5206fac533f1366352db37 data/tutorialmod/recipe/aurora_ashes.json
 a308105409f867f55e8fe239f816caf12942764a data/tutorialmod/recipe/chisel.json
+d217172031c6e0e57ffb4794675db0dc37f1d73f data/tutorialmod/recipe/kaupen.json
+b7aeba6bdf4065c2fe9b406365f24f35a86032be data/tutorialmod/recipe/kaupen_bow.json
 27b7f78e9afd667a01b78cc84df8b644bddef9ef data/tutorialmod/recipe/magic_block.json
 36a5cedbaa3afb8d53a3dd9e1b9cfbe541e5be20 data/tutorialmod/recipe/raw_alexandrite_block.json
